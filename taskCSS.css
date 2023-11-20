@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('./images/background.png'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#form-container {
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    width: 40%; 
+    box-sizing: border-box;
+}
+
+#custom-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+}
+
+#form-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    width: 100%;
+    margin-bottom: 10px; 
+}
+
+#form-buttons button {
+    padding: 8px;
+    background-color: transparent;
+    color: grey;
+    border: none;
+    border-radius: 4px;
+    border-color:#dab7a0 ;
+    cursor: pointer;
+}
+
+#form-fields {
+    width: 100%; 
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+#form-fields > div {
+    margin-right: 10px; 
+    margin-bottom: 10px;
+}
+
+#form-fields input,
+#form-fields select {
+    margin-bottom: 10px;
+    margin-right: 10px; 
+    padding: 5px;
+}
+
+button {
+    padding: 8px;
+    background-color: #f9e7cf;
+    color: grey;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+#save-button {
+    align-self: flex-start;
+    background-color: #dab7a0; 
+    color: white;
+}
+
+#table-container {
+    width: 40%; 
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+button:hover {
+    background-color: #dab7a0;
+    color: white;
+}
+
+h2{
+    color: grey;
+}
+
+.remove{
+  background-color: white;
+    
+}
+

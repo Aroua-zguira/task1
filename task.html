@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Form</title>
+    <link rel="stylesheet" type="text/css" href="./taskCSS.css">
+
+
+</head>
+<body>
+
+<div id="form-container">
+    <form id="custom-form">
+        <h2>Form</h2>
+ 
+        <button type="button" onclick="addField('text')">Add Text Field</button>
+        <button type="button" onclick="addField('select')">Add Select Field</button>
+
+        <div id="form-fields"></div>
+
+    </form>
+</div>
+
+<div id="table-container">
+    <table id="data-table">
+        <thead>
+            <tr id="table-headers"></tr>
+        </thead>
+        <tbody id="table-body"></tbody>
+    </table>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<script src="./taskJS.js"></script>
+
+</body>
+</html>
